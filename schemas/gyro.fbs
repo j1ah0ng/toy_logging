@@ -1,0 +1,6 @@
+namespace wyrd.sensors;
+table GyroReading {
+  angle:double (id: 0);
+  velocity:double (id: 1);
+}
+root_type GyroReading;
